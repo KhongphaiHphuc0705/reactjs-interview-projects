@@ -1,0 +1,14 @@
+.star-rating {
+  min-width: 100vw;
+  margin: 0 auto;
+}
+
+.star {
+  cursor: pointer;
+  color: #fff700;
+  transition: color 0.2s;
+}
+
+.star-o {
+  color: #ffffff;
+}
