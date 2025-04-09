@@ -1,0 +1,10 @@
+span {
+  display: block;
+  margin: 1em 0;
+  cursor: pointer;
+}
+
+.menu-list-container {
+  width: 350px;
+  background: rgb(0, 71, 110);
+}
