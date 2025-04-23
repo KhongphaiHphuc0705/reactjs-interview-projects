@@ -11,6 +11,7 @@ import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tabs-test";
+import ModalTest from "./components/custom-modal-popup/modal-test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +27,8 @@ function App() {
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      <ModalTest />
     </>
   );
 }
