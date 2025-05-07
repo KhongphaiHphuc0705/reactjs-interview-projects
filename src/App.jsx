@@ -20,6 +20,8 @@ import FeatureFlagGlobalState from "./components/feature-flag/context";
 import UseFetchTest from "./components/use-fetch/test";
 import UseOutsideClickTest from "./components/use-outside-click/test";
 import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAndBottom from "./components/scroll-to-top-bottom";
+import ScrollToSection from "./components/scroll-to-top-bottom/scroll-to-section";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -45,7 +47,9 @@ function App() {
       </FeatureFlagGlobalState> */}
       {/* <UseFetchTest /> */}
       {/* <UseOutsideClickTest /> */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+      {/* <ScrollToTopAndBottom /> */}
+      <ScrollToSection />
     </>
   );
 }
