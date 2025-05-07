@@ -18,6 +18,7 @@ import TicTacToe from "./components/tic-tac-toe";
 import FeatureFlags from "./components/feature-flag";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
 import UseFetchTest from "./components/use-fetch/test";
+import UseOutsideClickTest from "./components/use-outside-click/test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -41,7 +42,8 @@ function App() {
       {/* <FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState> */}
-      <UseFetchTest />
+      {/* <UseFetchTest /> */}
+      <UseOutsideClickTest />
     </>
   );
 }
