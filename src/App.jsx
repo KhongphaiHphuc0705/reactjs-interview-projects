@@ -19,6 +19,7 @@ import FeatureFlags from "./components/feature-flag";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
 import UseFetchTest from "./components/use-fetch/test";
 import UseOutsideClickTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -43,7 +44,8 @@ function App() {
         <FeatureFlags />
       </FeatureFlagGlobalState> */}
       {/* <UseFetchTest /> */}
-      <UseOutsideClickTest />
+      {/* <UseOutsideClickTest /> */}
+      <UseWindowResizeTest />
     </>
   );
 }
